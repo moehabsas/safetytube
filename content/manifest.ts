@@ -4,8 +4,8 @@ export interface Manifest {
 }
 
 const manifest: Manifest = {
-  motto: "اسلامة أولاً",
-  note: "للحفاظ علي سلامتكم يرجي قراءة التعليمات وإتباعها بدقة.",
+  motto: "السلامة أولاً",
+  note: "للحفاظ علي سلامتكم يرجي قراءة التعليمات وإتباعها بدقة!",
 };
 
 export default manifest;
