@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Cairo, Tajawal } from "next/font/google";
+import Providers from "@/components/providers";
 import "./globals.css";
 
 const cairo = Cairo({
@@ -55,9 +56,9 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ar" dir="rtl">
+    <html lang="ar" dir="rtl" suppressHydrationWarning>
       <body className={`${cairo.variable} ${tajawal.variable} antialiased`}>
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
