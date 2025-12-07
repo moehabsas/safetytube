@@ -35,7 +35,7 @@ function Navbar() {
         </Link>
       </Button>
       <Button size="lg" variant="outline" className="rounded-full" asChild>
-        <Link href="/flashcards">قراءة البطاقات التعليمية</Link>
+        <Link href="/flashcards">البطاقات التعليمية</Link>
       </Button>
     </nav>
   );
